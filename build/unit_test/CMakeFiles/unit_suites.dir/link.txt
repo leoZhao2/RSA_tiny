@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/unit_suites.dir/unit_suites.cpp.o  -o unit_suites ../include/rsa_threadpool/librsa_threadpool.a -lboost_unit_test_framework ../include/rsa/liblibrsa.a -lpthread -lgmp 
