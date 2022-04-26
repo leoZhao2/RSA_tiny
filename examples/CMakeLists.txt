@@ -1,0 +1,4 @@
+add_executable(rsa_threadpool_main rsa_threadpool_main.cpp)
+
+target_link_libraries(rsa_threadpool_main rsa_threadpool)
+

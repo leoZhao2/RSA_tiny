@@ -1,0 +1,3 @@
+add_executable(unit_suites unit_suites.cpp)
+
+target_link_libraries(unit_suites rsa_threadpool boost_unit_test_framework)

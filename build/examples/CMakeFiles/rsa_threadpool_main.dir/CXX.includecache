@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leo/repo/RSA_tiny/examples/rsa_threadpool_main.cpp
+../include/rsa_threadpool/rsa_threadpool.h
+/home/leo/repo/RSA_tiny/include/rsa_threadpool/rsa_threadpool.h
+
+/home/leo/repo/RSA_tiny/include/rsa/rsa.h
+gmp.h
+-
+ctime
+-
+
+/home/leo/repo/RSA_tiny/include/rsa_threadpool/rsa_threadpool.h
+../rsa/rsa.h
+/home/leo/repo/RSA_tiny/include/rsa/rsa.h
+functional
+-
+random
+-
+../thread/thread_pool.h
+/home/leo/repo/RSA_tiny/include/thread/thread_pool.h
+
+/home/leo/repo/RSA_tiny/include/thread/thread_pool.h
+mutex
+-
+queue
+-
+functional
+-
+future
+-
+thread
+-
+utility
+-
+vector
+-
+iostream
+-
+

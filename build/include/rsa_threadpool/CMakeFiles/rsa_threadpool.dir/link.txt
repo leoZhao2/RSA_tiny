@@ -1,0 +1,2 @@
+/usr/bin/ar qc librsa_threadpool.a  CMakeFiles/rsa_threadpool.dir/rsa_threadpool.cpp.o
+/usr/bin/ranlib librsa_threadpool.a

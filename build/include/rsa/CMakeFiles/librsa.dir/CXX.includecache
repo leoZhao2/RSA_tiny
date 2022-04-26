@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leo/repo/RSA_tiny/include/rsa/rsa.cpp
+rsa.h
+/home/leo/repo/RSA_tiny/include/rsa/rsa.h
+
+/home/leo/repo/RSA_tiny/include/rsa/rsa.h
+gmp.h
+-
+ctime
+-
+
